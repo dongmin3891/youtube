@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Youtube Mobile</title>
+    <script
+      src="https://kit.fontawesome.com/db38751d42.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="main.js" defer></script>
+  </head>
+  <body>
+    <!---Header------------------>
+    <!--header+section.player+section.info+section.UpNext
+     전체적인 마크업-->
+  <header>
+    <!--  .logo+.icons -->
+      <div class="logo">
+      <i class="fab fa-youtube"></i>
+      <span class="title">Youtube</span>
+    </div>
+
+      <div class="icons">
+        <ul>
+          <i class="fas fa-search"></i>
+          <i class="fas fa-ellipsis-v"></i>
+        </ul>
+      </div>
+  </header>
+    <!---Header------------------>
+
+    <!---Video Player--------------->
+    <section class="player">
+      <video controls src="비디오예제.mp4"></video>
+    </section>
+
+
+  <div class="infoAndUpNext">  <!-------------------Video info--------------->
+    <section class="info">
+      <!------Metadata-------->
+      <div class="metadata">
+          <ul class="hashtags">
+            <li>#DreamCoding</li>
+            <li>#DreamCoders</li>
+            <li>#Dong</li>
+          </ul>
+      <!-- -------Metada----- -->
+            <div class="titleAndButton">
+              <span class="title clamp">
+                >Clone Coding: Youtube Moblie Website 유튜브 모바일 웹사이트 따라
+                만들기 | 프론트엔드 개발자 입문편: HTML, CSS, Javascript 드림코딩과
+                함께하는 프론트엔드 실전 입문편
+              </span>
+          <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+          </div>
+
+        <div class="views">
+          <span class="views">1M views 1 month ago</span>
+        </div>
+      </div>
+
+     <!---------Action------>
+      <ul class="actions">
+        <li><button><i class="active fas fa-thumbs-up"></i><span>1K</span></button></li>
+        <li><button><i class="fas fa-thumbs-down"></i><span>0</span></button></li>
+        <li><button><i class="fas fa-share"></i><span>Share</span></button></li>
+        <li><button><i class="fas fa-plus"></i><span>Save</span></button></li>
+        <li><button><i class="fab fa-font-awesome-flag"></i><span>Report</span></button></li>
+      </ul>
+      <!--Channel Description-->
+      <div class="channel">
+        <div class="metadata">
+          <img src="kimdongmin.jpg" alt="">
+          <div class="info">
+            <span class="name">동동코딩 by 동동</span>
+          <span class="subscriber">1M subscribers</span></div>
+        </div>
+        <button><div class="subscribe">subscribe</div></button>
+      </div>
+    </section>
+
+    <section class="UpNext">
+      <span class="title">Up next</span>
+      <ul>
+        <li class="item">
+          <div class="img"><img src="미디어쿼리1.PNG" alt=""></div>
+          <div class="info">
+            <span class="title">미디어쿼리실습</span>
+            <span class="name">동동코딩 by 동동</span>
+            <span class="views">82k view</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="table 실습.PNG." alt=""></div>
+          <div class="info">
+            <span class="title">테이블 실습</span>
+            <span class="name">동동코딩 by 동동</span>
+            <span class="views">75k view</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+          <div class="img"><img src="미디어쿼리1.PNG" alt=""></div>
+          <div class="info">
+            <span class="title">미디어쿼리실습심화</span>
+            <span class="name">동동코딩 by 동동</span>
+            <span class="views">25k view</span>
+          </div>
+          <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+      </ul>
+    </section></div>
+  </body>
+</html>
